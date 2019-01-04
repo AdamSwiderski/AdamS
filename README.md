@@ -1,1 +1,1 @@
-# Gra-papier-kamien-nozyce
+Popularna gra papier, kamień, nożyce. Użytkownik wybiera jedno zdjęcie przedstawiające dłoń (papier, kamień lub nożyce), wybór komputera jest losowy. Funkcja porównuje wybór użytkownika oraz komputera i wyświetla wynik. Tablica wyników przedstawia liczbę wszystkich gier, liczbę wygranych, przegranych oraz remisów. Gra została napisana przy pomocy HTML, CSS oraz czystego JavaScript. 
