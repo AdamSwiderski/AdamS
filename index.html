@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <title>Gra papier, kamień, nożyce</title>
+</head>
+<body>
+    <h1>gra "papier, kamień, nożyce"</h1>
+    <div class="select">
+        <h2>Wybierz dłoń:</h2> 
+        <img data-option="papier" class="first" src="img/papier.JPG" alt="" title="Papier">
+        <img data-option="nożyce" src="img/nozyce.JPG" alt="" title="Nożyce">
+        <img data-option="kamień" src="img/kamien.JPG" alt="" title="Kamień">
+    </div>
+    <button class="start">Zagrajmy</button>
+    <div class="panel-left">
+        <h3>Wyniki gry</h3>
+        <p>Twój wybór: <span data-summary="your-choice"></span></p>
+        <p>Wybór komputera: <span data-summary="ai-choice"></span></p>
+        <h3>Zwycięzca gry: <span data-summary="who-win"></span></h3>
+    </div>
+    <div class="panel-right">
+        <h3>Aktualne wyniki</h3>
+        <p class="numbers">Liczba gier: <span>0</span></p>
+        <p class="wins">Wygranych: <span>0</span></p>
+        <p class="losses">Przegranych: <span>0</span></p>
+        <p class="draws">Remisów: <span>0</span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
